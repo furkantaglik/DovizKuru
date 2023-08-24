@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doviz Kuru</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="border border-dark">
+            <div class="header-wrapper text-center mx-auto py-1">
+                <h4>Döviz Kuru Çevirici</h4>
+            </div>
+
+            <div class="content-wrapper d-flex p-3 mx-auto">
+                <input type="number" id="amount" class="form-control w-25 mx-auto" placeholder="Miktar">
+
+                <select id="firstCurrencyOption" class="px-2 rounded me-1">
+
+                </select>
+                <i class="bi bi-arrow-right fs-2"></i>
+                <select id="secondCurrencyOption" class="px-2 rounded ms-1">
+
+                </select>
+
+                <input type="number" class="form-control w-25 mx-auto" id="result" readonly>
+            </div>
+        </div>
+        <p class="text-end"><i class="bi bi-c-circle-fill"></i> Furkan Tağlık</p>
+    </div>
+
+
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
